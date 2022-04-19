@@ -21,7 +21,7 @@
         app:srcCompat="@drawable/img" />
 
     <EditText
-        android:id="@+id/etStaff_Id"
+        android:id="@+id/etStudent_Id"
         android:layout_width="250dp"
         android:layout_height="54dp"
         android:drawableLeft="@drawable/ic_baseline_person_outline_24"
@@ -38,7 +38,7 @@
         app:layout_constraintVertical_bias="0.152" />
 
     <EditText
-        android:id="@+id/etStaff_Pass"
+        android:id="@+id/etStudent_Pass"
         android:layout_width="246dp"
         android:layout_height="56dp"
         android:clickable="true"
@@ -52,11 +52,11 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.544"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/etStaff_Id"
+        app:layout_constraintTop_toBottomOf="@+id/etStudent_Id"
         app:layout_constraintVertical_bias="0.282" />
 
     <Button
-        android:id="@+id/btnSi1"
+        android:id="@+id/btnSi2"
         android:layout_width="129dp"
         android:layout_height="52dp"
         android:backgroundTint="#47A38E"
@@ -66,7 +66,7 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/etStaff_Pass" />
+        app:layout_constraintTop_toBottomOf="@+id/etStudent_Pass" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
