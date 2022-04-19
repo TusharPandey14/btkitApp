@@ -8,7 +8,7 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
 
-public class login_Student extends AppCompatActivity {
+ public class login_Student extends AppCompatActivity {
     EditText etStudent_id,etStudent_Pass;
     Button btnSi2;
     @Override
